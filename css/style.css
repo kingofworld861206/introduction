@@ -1,0 +1,194 @@
+*{
+/* border: solid 1px black;  */
+font-family: 微軟正黑體；
+}
+
+body{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,228,225,0.8);
+  color: rgba(139,115,85,0.8);
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.resume{
+  display: flex;
+  max-width: 750px;
+  border: solid 6px white;
+  position: relative;
+}
+
+.left, .right{
+  padding: 15px;
+}
+.left{
+  flex: 5;
+}
+.right{
+  flex: 5;
+  padding-top: 200px;
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+a{
+  color: #C1CDC1;
+}
+
+h2{
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+h2::after{
+  content:"";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: rgba(255,255,255,1);
+  margin-left: 10px;
+}
+
+h4{
+  margin: 0px;
+  margin-top: 40px;
+}
+
+p{
+  text-align: justify;
+}
+
+.year li{
+  padding-left: 15px;
+  border-left: solid 4px rgba(255,255,255,1);
+  padding-left: 10px;
+}
+
+hr{
+  background-color: rgba(255,255,255,1);
+  border: 0px;
+  height: 5px;
+  width: 50%;
+  display: relative;
+  margin-left: 0px;
+}
+
+.decaration{
+  width: 290px;
+  height: 120px;
+  background: linear-gradient(135deg,#BFEFFF,#FFF);
+  border-radius: 70px 0px 0px 70px;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius:50%;
+  position: relative;
+  overflow: hidden;
+}
+.circle::after{
+  content:"";
+  display: block;
+  background-color: rgba(191,239,255, 0.8);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.p90, .p180, .p270, .p360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #C1CDC1;
+}
+
+.p180{
+  left: 50%;
+  top: 50%;
+}
+
+.p270{
+  left: 0;
+  top: 50%;
+}
+
+.p360{
+  left: 0;
+  top: 0;
+}
+.listLicense .bar{
+  width: 70%;
+  height:10px;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+}
+.value{
+  width: 60%;
+  height:100%;
+  background-color: #C1CDC1;
+}
+.s70{
+  width: 60%;
+  height:100%;
+  background-color: rgba(191,239,255, 0.8);
+}
+.s80{
+  width: 60%;
+  height:100%;
+  background-color: rgba(191,239,255, 0.8);
+}
+.s91{
+  width: 60%;
+  height:100%;
+  background-color: rgba(191,239,255, 0.8);
+}
+.s100{
+  width: 60%;
+  height:100%;
+  background-color: rgba(191,239,255, 0.8);
+}
+.value.p70{
+  width: 100%;
+}
+.value.p80{
+  width: 100%;
+}
+.value.p91{
+  width: 100%;
+}
+.value.p100{
+  width: 100%;
+}
+.s70{
+  width: 70%;
+}
+.s80{
+  width: 80%;
+}
+.s91{
+  width: 90%;
+}
+.s100{
+  width: 100%;
+}
+.Homework li{
+  display: inline-block;
+  padding: 5px;
+}
+
